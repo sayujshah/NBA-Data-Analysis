@@ -1,3 +1,7 @@
+# Set absolute path of file
+import os
+absolute_path = os.path.dirname(os.path.abspath(__file__))
+
 import sqlite3
 import pandas as pd
 import numpy as np
@@ -9,7 +13,7 @@ from dash import dcc, html
 import plotly.express as px
 
 # Create a SQL connection to the SQLite database in order to load data
-con = sqlite3.connect('basketball.sqlite')
+con = sqlite3.connect(absolute_path + '/basketball.sqlite')
 
 # Run SQL query to pull relevant information into a Pandas dataframe
 df = pd.read_sql_query('SELECT Game_Officials.FIRST_NAME, Game_Officials.LAST_NAME, Game.WL_HOME, Game.PF_HOME, Game.WL_AWAY, Game.PF_AWAY FROM Game_Officials LEFT JOIN Game ON Game_Officials.GAME_ID = Game.GAME_ID WHERE Game.SEASON_ID = 22020', con)
