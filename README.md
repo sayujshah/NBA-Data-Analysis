@@ -34,7 +34,7 @@ As you can see below, there is only a handful of referees that show a large enou
 <img width="871" alt="image" src="https://user-images.githubusercontent.com/64810038/169672681-3de2864e-1825-4685-b76a-e92719106380.png">
 <img width="880" alt="image" src="https://user-images.githubusercontent.com/64810038/169672685-88dee119-6b2d-44e2-8140-f472159f3753.png">
 
-I also wanted to see if the way referees called fouls had an affect on the outcome of the game. We see below that referee bias with calling fouls has a slight correlation with the outcome of the game. Referees that had a large differential in fouls between home and away teams trended toward having a higher difference in win percentage as well. However, the trend is not strong enough to conclude that this is the only factor. There are a multitude of factors in a game that the referees may take advantage of to sway a game in one direction or another.
+I also wanted to see if the way referees called fouls had an affect on the outcome of the game. We see below that some referees that had a large differential in fouls between home and away teams trended toward having a higher difference in win percentage as well. However, their is no clear overall trend to conclude that the increased foul bias has an effect on the game. It id clear that there are a multitude of factors in a game that the referees may take advantage of to sway a game in one direction or another.
 
 <img width="917" alt="image" src="https://user-images.githubusercontent.com/64810038/169672695-69b96945-72f2-42fa-82b2-bdb86cd0bfb4.png">
 
