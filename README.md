@@ -41,3 +41,17 @@ I also wanted to see if the way referees called fouls had an affect on the outco
 I think there are some interesting insights to gather from these visualizations beyond what I have mentioned above. It's worrying that there are refs that are on extreme ends of the spectrum in this dataset. This should be something for the NBA, fans, or analysts to key in on and scrutinize. It is increasingly clear that Tim Donaghy was not the only referee of his kind and that the NBA may be hiding similar corrupt refs that may be swaying the outcome of games. Additionally, understanding this information and knowing who is refereeing each game could be a valuable betting strategy.
 
 So what solutions are there to minimize referee bias? For one, the NBA can better utilize analytics to automatically derive referee schedules. By utilizing AI and machine learning, the NBA can pinpoint which refs may pose a risk of the most bias and pair them with those that have shown little bias when scheduling what games they will be reffing. Additionally, a form of regular auditing may be necessary. These referees have the ability to sway outcomes of games that have a multitude of financial implications. Team owners, bettors/investors, and fans have money and emotional attachments to each and every game. Making sure that the refs are good at their job and offer fair/non-preferential treatment night in and night out is important for the long-term sustainability of the league as a whole.
+
+## Referee Database
+
+Run the "runme.py" file and input any referee name, team name, and whether you want to access home or away data. This file will be used for future, deeper analysis into individual referee trends to study which referees give teams an advantage. For the time being, go ahead and utilize this data for yourself!
+
+Allowed responses:
+
+* Referee Name: "Scott Foster", "Tony Brothers", etc. (make sure the full name is entered; case-sensitive)
+* Team Name: "Chicago Bulls", "Miami Heat", etc. (make sure the city and team name is entered; case-sensitive)
+* Home or Away: "Home" or "Away" (case-sensitive)
+
+Returns: Dictionary with the total games reffed by the referee for the provided team, the team's wins while reffed by the referee, and losses
+
+Example Output: {'total games': 39, 'L': 10, 'W': 29}
